@@ -8,6 +8,7 @@ $c-error: #ea5d5d;
 body {
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   color: $c-text;
 }

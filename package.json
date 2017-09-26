@@ -1,7 +1,9 @@
 {
-  "name": "fe-boilerplate",
-  "version": "0.1.0",
-  "private": true,
+  "name": "web-core",
+  "version": "1.0.0",
+  "description": "ReactJS web core",
+  "author": "https://github.com/patrenky",
+  "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
     "base-64": "^0.1.0",
@@ -35,9 +37,6 @@
     "/api": {
       "target": "http://localhost:8080",
       "secure": false,
-      "pathRewrite": {
-        "^/api": "/api"
-      },
       "changeOrigin": true
     }
   },
