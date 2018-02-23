@@ -20,3 +20,6 @@ yarn-error.log*
 
 src/styles/*.css
 .vscode
+
+# remove this line after first install
+yarn.lock
