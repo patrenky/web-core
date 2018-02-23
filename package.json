@@ -1,7 +1,7 @@
 {
-  "name": "web-core",
+  "name": "workout-web",
   "version": "1.0.0",
-  "description": "ReactJS web core",
+  "description": "workout web",
   "author": "https://github.com/patrenky",
   "license": "MIT",
   "dependencies": {
@@ -20,6 +20,7 @@
     "react-router-dom": "^4.1.1",
     "react-router-redux": "^4.0.8",
     "react-tap-event-plugin": "^2.0.1",
+    "recompose": "^0.26.0",
     "redux": "^3.6.0",
     "redux-form": "^6.7.0",
     "redux-thunk": "^2.2.0",
@@ -47,6 +48,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "api": "php -S 127.0.0.1:8080"
   }
 }
